@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-768.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/media-1024.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onresize="mudancaTamanho()">
+    <header>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()" onclick="clickMenu()">menu</i>
+        <menu id="navegacao">
+            <ul>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#futuro">Futuro</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <section>
+            <h1>Sobre Mim</h1>
+            <hr>
+            <p>
+                Sou José Wendel, tenho 21 anos, conheci o código HTML em 2020 no site <a href="https://www.ev.org.br/" target="_blank">Fundação Bradesco</a>, achei muito maneiro a capacidade de poder criar algo tão incrível, porém fiz o curso e depois desanimei e deixei de lado, esse começo me ajudou a recomeçar em 2022 estudando pela plataforma do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a> com Professor Guanabara, isso veio me animando desde então, tenho me dedicado e decidi seguir a área de <span>Front-End</span>, meus conhecimentos até agora rodeiam em torno do <span>HTML5</span> e <span>CSS3</span>, logo mais avanço para as demais tecnologias da área.
+            </p>
+        </section>
+
+        <section id="tecnologias">
+            <h1>Tecnologias</h1>
+            <hr>
+            <div class="picture-align">
+                <picture class="picture-html5">
+                    <source media="(min-width: 1024px)" srcset="imagens/img-html5-200.png" type="image/png">
+                    <source media="(min-width: 768px)" srcset="imagens/img-html5-150.png" type="image/png">
+                    <img src="imagens/img-html5-90.png" alt="imagem html5">
+                </picture>
+                <picture class="picture-css3">
+                    <source media="(min-width: 1024px)" srcset="imagens/img-css3-200.png" type="image/png">
+                    <source media="(min-width: 768px)" srcset="imagens/img-css3-150.png" type="image/png">
+                    <img src="imagens/img-css3-90.png" alt="imagem css3">
+                </picture>
+            </div>
+            <p>
+                Até o momento aprendi somente HTML5 e CSS3 pela plataforma Curso em Video, vejo alguns videos esporádicos pelo YouTube para ver na prática alguém mais experiente construindo um código e aplicando técnicas que ainda não conheço.
+            </p>
+        </section>
+
+        <section id="projetos">
+            <h1>Projetos</h1>
+            <hr>
+            <div class="projetos-grid">
+                <div>
+                    <h3>Projeto Cordel</h3>
+                    <hr>
+                    <p>
+                        Esse projeto foi feito durante o curso do Curso em Video, consiste em uma página com um poema aplicando imagens de fundo com efeito parallax.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://wendeltm.github.io/Projeto-Cordel/" target="_blank" rel="me">Link Github Pages</a>
+                        </li><br>
+                        <li>
+                            <a href="https://github.com/wendeltm/Projeto-Cordel" target="_blank" rel="me">Link Repositório</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Stats Preview Card Component</h3>
+                    <hr>
+                    <p>
+                        Projeto feito de um desafio do site FrontEnd Mentor, é uma página com um Card contendo estatísticas de uma empresa.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://wendeltm.github.io/Chalenges-FrontEnd-Mentor/stats%20preview%20card%20component/index.html" target="_blank" rel="me">Link Github Pages</a>
+                        </li><br>
+                        <li>
+                            <a href="https://github.com/wendeltm/Chalenges-FrontEnd-Mentor/tree/main/stats%20preview%20card%20component" target="_blank" rel="me">Link Repositório</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>3 Card Column</h3>
+                    <hr>
+                    <p>
+                        Projeto feito de um desafio do site FrontEnd Mentor, que contém 3 cards na tela com CSS grid, descrevendo três tipos de carros de uma empresa.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://wendeltm.github.io/Chalenges-FrontEnd-Mentor/3%20card%20column/3%20column%20card%20desktop/index.html" target="_blank" rel="me">Link Github Pages</a>
+                        </li><br>
+                        <li>
+                            <a href="https://github.com/wendeltm/Chalenges-FrontEnd-Mentor/tree/main/3%20card%20column/3%20column%20card%20desktop" target="_blank" rel="me">Link Repositório</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Testemonial Grid Section</h3>
+                    <hr>
+                    <p>
+                        Projeto feito de um desafio do site FrontEnd Mentor, com um grid de comentários de usuários de um site.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://wendeltm.github.io/Chalenges-FrontEnd-Mentor/testemonials%20grid%20section/index.html" target="_blank" rel="me">Link Github Pages</a>
+                        </li><br>
+                        <li>
+                            <a href="https://github.com/wendeltm/Chalenges-FrontEnd-Mentor/tree/main/testemonials%20grid%20section" target="_blank" rel="me">Link Repositório</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="futuro">
+            <h1>Futuro</h1>
+            <hr>
+            <p>
+                Pretendo conseguir o conhecimento de Front-End desde que voltei em Março/2022 e ter um bom conhecimento até Dezembro/2022 para ingressar no mercado de trabalho, mas também com alguma base em Back-End para poder associar melhor e possivelmente resolver projetos melhores com outras pessoas.
+            </p>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <a href="https://github.com/wendeltm" target="_blank">
+            <img src="icones/github-35.png" alt="icone github">
+        </a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-wendel-moreira-santana-5a2a47188/overlay/contact-info/" target="_blank">
+            <img src="icones/linkedin-35.png" alt="icone linkedin">
+        </a>
+        <a href="https://www.instagram.com/wendel_tm/" target="_blank">
+            <img src="icones/instagram-35.png" alt="icone instagram">
+        </a>
+        <a href="https://www.frontendmentor.io/profile/wendeltm" target="_blank">
+            <img src="icones/frontend-mentor-35.png" alt="icone frontend mentor">
+        </a>
+        <p>By José Wendel</p>
+    </footer>
+
+    <script>
+        function mudancaTamanho() {
+            if (window.innerWidth >= 768) {
+                navegacao.style.display = 'block' //navegacao faz referência ao menu
+            } else {
+                navegacao.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (navegacao.style.display == 'block') {
+                navegacao.style.display = 'none'
+            } else {
+                navegacao.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

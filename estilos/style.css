@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); /*texto*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    width: 100%;
+}
+
+a, span{
+    color: #cc6b48;
+}
+
+h1 {
+    color: #cc6b48;
+    font:700 22px 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font: normal 13px 'Roboto Mono', monospace;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+i#burguer {
+    background-color: #7f211a;
+    color: #cc6b48;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul > li > a {
+    background-color: #663835;
+    border-top: 1px solid #f07c5288;
+    color: #d47552;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* MAIN */
+section {
+    max-width: 800px;
+    margin: 100px auto;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+div p {
+    text-indent: 0px;
+}
+
+div.picture-align {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+picture {
+    margin: 0px 3%;
+}
+
+div.projetos-grid div {
+    background-color: #7f211a;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #cc6b48b7;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    height: 190px;
+    width: 350px;
+}
+
+div.projetos-grid hr {
+    border-color: #cc6b48ab;
+    margin: auto;
+    width: 80%;
+}
+
+div.projetos-grid h3 {
+    color: #cc6b48;
+    font: 600 16px 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+div.projetos-grid p {
+    font-weight: 500;
+    color: #ffffffc7;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+div.projetos-grid li {
+    background-color: #972a22;
+    border-radius: 5px;
+    color: white;
+    font: normal 15px 'Montserrat', sans-serif;
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    height: 20px;
+    width: 80%;
+}
+
+div.projetos-grid li:hover {
+    background-color: #a83027;
+}
+
+div.projetos-grid a {
+    color: rgba(255, 255, 255, 0.548);
+}
+
+/* FOOTER */
+footer {
+    background-color: #7f211a;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    margin:10px 15px;
+}
+
+footer p {
+    color: #cc6b48;
+    line-height: 0px;
+    margin: 5px;
+    text-align: center;
+    text-indent: 0px;
+}

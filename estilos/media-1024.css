@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    width: 800px;
+    margin: 100px auto;
+}
+
+div.projetos-grid p {
+    font-size: 15px;
+}
+
+section#futuro {
+    height: 350px;
+}
+
+footer p {
+    font-size: 15px;
+    text-indent: 0px;
+}
